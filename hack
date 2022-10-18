@@ -1,4 +1,4 @@
-wait(5)
+wait(1)
 
 --[[ Info ]]--
 
@@ -10,7 +10,7 @@ local scriptname = "feFlip"
 
 local FrontflipKey = Enum.KeyCode.Z
 local BackflipKey = Enum.KeyCode.X
-local AirjumpKey = Enum.KeyCode.C
+local AirjumpKey = Enum.KeyCode.Space
 
 
 --[[ Dependencies ]]--
@@ -81,4 +81,4 @@ notifSound.Volume = 0.15
 notifSound.SoundId = "rbxassetid://170765130"
 notifSound.PlayOnRemove = true
 notifSound:Destroy()
-game.StarterGui:SetCore("SendNotification", {Title = "feFlip", Text = "feFlip loaded successfully!", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "Okay"})
+game.StarterGui:SetCore("SendNotification", {Title = "Adem AKBAŞ", Text = "Jimnastik başarıyla yüklendi!", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "Okay"})
